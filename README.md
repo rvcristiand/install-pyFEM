@@ -1,4 +1,4 @@
-# reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+<!--- # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
 
@@ -190,7 +190,7 @@ When used locally, this feature requires that reveal.js [runs from a local web s
     <!--
         Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
         For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
-    -->
+
 </section>
 ```
 
@@ -201,8 +201,8 @@ Special syntax (through HTML comments) is available for adding attributes to Mar
 ```html
 <section data-markdown>
 	<script type="text/template">
-		- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-		- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+		- Item 1 <!-- .element: class="fragment" data-fragment-index="2"
+		- Item 2 <!-- .element: class="fragment" data-fragment-index="1"
 	</script>
 </section>
 ```
@@ -214,7 +214,7 @@ Special syntax (through HTML comments) is available for adding attributes to the
 ```html
 <section data-markdown>
 	<script type="text/template">
-	<!-- .slide: data-background="#ff0000" -->
+	<!-- .slide: data-background="#ff0000"
 		Markdown content
 	</script>
 </section>
@@ -856,8 +856,8 @@ You can also add relative navigation links, similar to the built in reveal.js co
 <a href="#" class="navigate-right">
 <a href="#" class="navigate-up">
 <a href="#" class="navigate-down">
-<a href="#" class="navigate-prev"> <!-- Previous vertical or horizontal slide -->
-<a href="#" class="navigate-next"> <!-- Next vertical or horizontal slide -->
+<a href="#" class="navigate-prev"> <!-- Previous vertical or horizontal slide
+<a href="#" class="navigate-next"> <!-- Next vertical or horizontal slide
 ```
 
 ### Fragments
@@ -1385,4 +1385,4 @@ If you want to include math inside of a presentation written in Markdown you nee
 
 MIT licensed
 
-Copyright (C) 2019 Hakim El Hattab, http://hakim.se
+Copyright (C) 2019 Hakim El Hattab, http://hakim.se -->
